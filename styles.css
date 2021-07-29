@@ -1,0 +1,149 @@
+/* Smaller than Tablet */
+@media only screen and (max-width: 649px) {
+    .description {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 650px) {
+    .content-kegiatan {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .description {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: medium;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #desc-right {
+        margin-right: 1%;
+    }
+
+    #desc-left {
+        margin-left: 1%;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    .footer-text-content {
+        margin-top: 10px;
+    }
+}
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    .content-kegiatan {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container {
+        position: static;
+        overflow: hidden;
+        /* width: 60%; */
+        max-width: 560px;
+        height: 0;
+        padding-bottom: 25%;
+        /* padding: 1rem; */
+        /* margin: 1rem 3rem 0; */
+    }
+
+    /* .container-left .description {
+        margin-right: 5%;
+    } */
+
+    .container-right {
+        margin-left: auto;
+        order: 2;
+    }
+
+    .card-text {
+        font-size: x-small;
+    }
+
+    .description {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: medium;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    footer {
+        height: 150px;
+    }
+    
+    .footer-content {
+        display: flex;
+    }
+
+    .footer-text-content {
+        margin-top: 10px;
+    }
+    
+    .social-list {
+        margin-left: auto;
+        margin-right: 5%;
+        order: 2;
+        list-style-type: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .card-text {
+        font-size: medium;
+    }
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 0.9;
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 75%;
+    /* The width is the width of the web page */
+}
+
+.acc-container {
+    width: 75%;
+}
+
+footer {
+    height: 150px;
+    padding: 20px;
+}
+
+.footer-text-content {
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.social-list {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
